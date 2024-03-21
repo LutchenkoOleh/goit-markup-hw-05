@@ -367,6 +367,43 @@
     </div>
   </footer>
 
+  <div class="backdrop">
+    <div class="modal">
+      <button type="button" class="modal-close">
+        <svg class="close-icon" width="8" height="8">
+          <use href=""></use>
+        </svg>
+      </button>
+      <p class="modal-title">Leave your contacts and we will call you back</p>
+      <form class="modal-form">
+        <div class="modal-field">
+          <label for="user-name" class="modal-lebel">Name</label>
+          <input type="text" name="user-name" id="user-name" class="modal-input">
+        </div>
+        <div class="modal-field">
+          <label for="user-tel" class="modal-lebel">Phone</label>
+          <input type="tel" name="user-tel" id="user-tel" class="modal-input">
+        </div>
+        <div class="modal-field">
+          <label for="user-email" class="modal-lebel">Email</label>
+          <input type="email" name="user-email" id="user-email" class="modal-input">
+        </div>
+        <div class="modal-field">
+          <label for="user-comment" class="modal-lebel">Comment</label>
+          <textarea name="user-comment" id="user-comment" class="modal-text" placeholder="Text input"></textarea>
+        </div>
+        <div class="modal-field modal-privacy-policy">
+          <label for="privacy-policy" class="modal-lebel">I accept the terms and conditions of the Privacy Policy
+            <input type="checkbox" name="privacy-policy" value="privacy-policy" id="privacy-policy" checked
+              class="modal-input privacy-policy">
+          </label>
+        </div>
+        <button type="submit" class="modal-send">Send</button>
+
+      </form>
+    </div>
+  </div>
+
   </body>
 
 </html>
