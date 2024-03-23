@@ -904,7 +904,7 @@ address {
   border: none;
   fill: #f4f4fd;
 } */
-.modal-check:checked+.check-text-icon {
+.modal-check:checked+.check-text>.check-text-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
