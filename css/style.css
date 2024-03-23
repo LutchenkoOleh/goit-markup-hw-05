@@ -680,15 +680,6 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .footer-btn-search span {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #ffffff;
-} */
 
 .footer-btn-search:hover,
 .footer-btn-search:focus {
@@ -754,7 +745,8 @@ address {
   cursor: pointer;
   fill: #2e2f42;
   padding: 0;
-  transition: background-color 250ms (0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-icon {
@@ -832,8 +824,7 @@ address {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus,
-.modal-input:hover+.modal-icon {
+.modal-input:focus+.modal-icon {
   fill: #4d5ae5;
 }
 
@@ -908,7 +899,7 @@ address {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked+.check-text span {
+.modal-check:checked+.check-text .check-text-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
