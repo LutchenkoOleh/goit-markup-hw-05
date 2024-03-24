@@ -899,12 +899,7 @@ address {
   margin-right: 8px;
 }
 
-/* .modal-check+.check-text .check-text-icon {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-} */
-.modal-check:checked+.check-text>.check-text-icon {
+.modal-check:checked+.check-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
