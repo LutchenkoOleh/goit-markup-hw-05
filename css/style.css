@@ -866,6 +866,7 @@ address {
 /* __________CHECK__________ */
 .modal-field-check {
   margin-bottom: 24px;
+
 }
 
 .check-text {
@@ -874,6 +875,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  position: relative;
 
 }
 
@@ -884,7 +886,8 @@ address {
   color: #4d5ae5;
 }
 
-.check-text-icon {
+.check-text span {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -899,9 +902,7 @@ address {
   margin-right: 8px;
 }
 
-
-
-.modal-check:checked+.check-text>span {
+.modal-check:checked+.check-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
